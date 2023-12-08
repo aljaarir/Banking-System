@@ -5,7 +5,6 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include <vector>
 using namespace std;
 
 #include "Accounts.h"
@@ -13,7 +12,7 @@ using namespace std;
 /**********************************************
  * Constructor
  **********************************************/
-account::account(string argf, string argl, int phoneNum, string email, string addressName, float money)
+account::account(string argf, string argl, int long phoneNum, string email, string addressName, float money)
 { 
   first = argf;
   last = argl;
